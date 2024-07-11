@@ -10,26 +10,25 @@ This script loops through a list of directories, checks out the default branch, 
 
 #### Usage
 
-1. Modify the `directories` array in the script to include your repository paths.
-2. Make the script executable:
+1. Make the script executable:
 
    ```bash
    chmod +x scripts/update_repos.sh
    ```
 
-3. Install
+2. Install
 
    ```bash
    sudo make all
    ```
 
-4. Reload the profile
+3. Reload the profile
 
    ```bash
    source ~/.zshrc
    ```
 
-5. Run
+4. Run
    ```bash
       update_repos {path}
    ```

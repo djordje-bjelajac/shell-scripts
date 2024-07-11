@@ -16,3 +16,20 @@ This script loops through a list of directories, checks out the default branch, 
    ```bash
    chmod +x scripts/update_repos.sh
    ```
+
+3. Install
+
+   ```bash
+   sudo make all
+   ```
+
+4. Reload the profile
+
+   ```bash
+   source ~/.zshrc
+   ```
+
+5. Run
+   ```bash
+      update_repos {path}
+   ```

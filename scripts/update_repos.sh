@@ -32,8 +32,6 @@ for dir in "$base_directory"/*; do
         fi
 
         cd - > /dev/null || { echo "Failed to return to previous directory"; exit 1; }
-        else
-            echo "Directory $dir does not exist."
     fi
 done
 
